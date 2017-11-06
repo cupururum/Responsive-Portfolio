@@ -207,7 +207,7 @@ html, body {
 }
 
 nav{
-	margin-right: 84px;
+	margin-right: 10px;
 	padding-right: 0px;
 }
 
@@ -216,19 +216,19 @@ div.divider_3 {
 }
 
 header {
-	margin-left: 84px;
+	margin-left: 10px;
 	width: 173px;
 	font-size: 16px;
 }
 
 section {
-	margin-left: 84px;
-	width: 600px;
+	margin-left: 10px;
+	width: 748px;
 	height: 750px;
 }
 
 article {
-	width: 600px;
+	width: 748px;
 	height: 500px;
 	position: relative;
 	bottom: 0px;
@@ -242,11 +242,11 @@ h1.connect {
  top: 0px;
 }
 aside {
-	width: 600px;
+	width: 748px;
 	height: 200px;
 	position: relative;
 	top: 550px;
-	margin-left: 85px;
+	margin-left: 10px;
 }
 
 form {

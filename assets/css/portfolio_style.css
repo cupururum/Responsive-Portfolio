@@ -162,6 +162,7 @@ p.image_fashion {
 
 .nightlife {
 	width: 270px;
+	height: 200px;
 	position: absolute;
 	left: 0px;
 	top: 500px;
@@ -252,7 +253,7 @@ footer {
 	}
 
 	nav{
-    margin-right: 84px;
+    margin-right: 10px;
 		padding-right: 0px;
 	}
 
@@ -261,28 +262,28 @@ footer {
 	}
 
 	header {
-		margin-left: 84px;
+		margin-left: 10px;
 		width: 173px;
 		font-size: 16px;
 	}
 
 	section {
-		margin-left: 84px;
-		width: 600px;
-		height: 950px;
+		margin-left: 10px;
+		width: 748px;
+		height: 1150px;
 	}
 	article {
-		width: 600px;
-		height: 700px;
+		width: 748px;
+		height: 900px;
 		position: relative;
 		bottom: 0px;
 	}
 	aside {
-		width: 600px;
+		width: 748px;
 		height: 200px;
 		position: relative;
-		top: 750px;
-		margin-left: 85px;
+		top: 950px;
+		margin-left: 10px;
 	}
 	h1 {
 		position: relative;
@@ -294,10 +295,15 @@ footer {
  }
 
  div.wrap_all_pic {
- 	width: 650px;
+ 	width: 723px;
 	height: 500px;
  	margin-left: 25px;
  	position: relative;
+}
+
+img.image_portfolio {
+	width: 338px;
+	height: 250px;
 }
 
  .cats {
@@ -307,26 +313,26 @@ footer {
 
  .nature {
 	 position: relative;
-	 top: -482px;
-	 left: 290px;
+	 top: -532px;
+	 left: 360px;
  }
 
  .fashion {
 	 left: 0px;
-	 top: 20px;
+	 top: 85px;
 
 	 }
 
  .city {
 	 position: relative;
-	 left: 290px;
-	 top: -564px;
+	 left: 360px;
+	 top: -600px;
  }
 
  .nightlife {
 	 position: relative;
 	 left: 0px;
-	 top: -646px;
+	 top: -670px;
 	 height: 200px;
  }
 
