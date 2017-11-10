@@ -242,11 +242,11 @@ h1.connect {
  top: 0px;
 }
 aside {
-	width: 748px;
+	width: 600px;
 	height: 200px;
 	position: relative;
 	top: 550px;
-	margin-left: 10px;
+	margin-left: 85px;
 }
 
 form {
@@ -255,7 +255,7 @@ form {
 }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 767px){
 
 	html, body {
 		height: 100%;
@@ -311,5 +311,85 @@ form {
 
 
 	}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 639px) {
+
+html, body {
+	height: 100%;
+	display: block;
+}
+
+nav{
+	width: 100%;
+	float: none;
+	height: 80px;
+	padding-left: 0px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	font-size: 20px;
+}
+
+div.divider, div.divider_3 {
+	padding-left: 35px;
+	padding-top: 18px;
+	border: none;
+}
+
+header {
+	position: static;
+	width: 100%;
+	font-size: 30px;
+	margin-left: 0px;
+	padding: 20px 0px 10px 0px;
+}
+
+h1, p {
+	 position: relative;
+	 bottom: 220px;
+ }
+
+h1.connect {
+	 position: relative;
+	 top: 0px;
+ }
+
+section {
+	margin-top: 20px;
+	width: 380px;
+	height: 1290px;
+	margin-left: 0px;
+}
+article {
+	width: 380px;
+	height: 1000px;
+	position: relative;
+	bottom: 0px;
+	top: 60px;
+	margin-left: 10px;
+}
+
+aside {
+	width: 380px;
+	height: 220px;
+	margin-left: 40px;
+	position: relative;
+	top: 1050px;
+	left: 11px;
+}
+
+ #links {
+	margin-left: 20px;
+ }
+
+ #image {
+	 width: 80%;
+	 float: none;
+	 margin-left: 40px;
+	 margin-bottom: 20px;
+	 position: relative;
+	 bottom: 220px;
+ }
 
 }

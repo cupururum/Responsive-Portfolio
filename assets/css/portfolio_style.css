@@ -74,6 +74,7 @@ a {
 section {
 	margin-top: 15px;
 	width: 960px;
+	height: 850px;
 	margin-left: 130px;
 	flex: 1 0 auto;
 }
@@ -209,6 +210,7 @@ footer {
 	section {
 		margin-left: 160px;
 		width: 660px;
+		height: 1180px;
 	}
 
 	aside {
@@ -338,7 +340,7 @@ img.image_portfolio {
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px){
 
 	html, body {
 		height: 100%;
@@ -364,20 +366,20 @@ img.image_portfolio {
 	header {
 		position: static;
 		width: 100%;
-		font-size: 20px;
+		font-size: 30px;
 		margin-left: 0px;
-		padding: 20px 0px 20px 0px;
+		padding: 20px 0px 10px 0px;
 	}
 
 	section {
 		margin-top: 20px;
-		width: 620px;
-		height: 2650px;
-		margin-left: 0px;
+		width: 380px;
+		height: 1800px;
+		margin-left: 100px;
 	}
 	article {
-		width: 620px;
-		height: 2350px;
+		width: 380px;
+		height: 1500px;
 		position: relative;
 		bottom: 0px;
 		top: 60px;
@@ -385,44 +387,94 @@ img.image_portfolio {
 	}
 
 	aside {
-		width: 620px;
-		height: 200px;
+		width: 380px;
+		height: 210px;
 		margin-left: 40px;
 		position: relative;
-		top: 2430px;
+		top: 1580px;
 		left: 11px;
 	}
 
 	div.wrap_all_pic {
 	 width: 580px;
 	 height: 500px;
-	 margin-left: 40px;
+	 margin-left: 15px;
 	 position: relative;
  }
 
  img.image_portfolio{
-	 width: 540px;
-	 height: 400px;
+	 width: 130%;
+	 height: 130%;
+
  }
+
+ #links {
+	 margin-left: 20px;
+ }
+
+ h1.connect {
+	position: relative;
+	top: 10px;
+}
 
 	.nature {
 		left: 0px;
-		top: -230px;
+		top: -260px;
 	}
 
 	.fashion {
 		left: 0px;
-		top: 720px;
+		top: 374px;
 		}
 
 	.city {
 		left: 0px;
-		top: 210px;
+		top: -48px;
 	}
 
 	.nightlife {
-		top: 180px;
+		top: -118px;
 		height: 200px;
+	}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 544px) {
+
+	html, body {
+		height: 100%;
+		display: block;
+	}
+
+	nav{
+		width: 100%;
+		float: none;
+		height: 80px;
+		padding-left: 0px;
+		background-color: #ffffff;
+		border-bottom: 1px solid #cccccc;
+		font-size: 20px;
+	}
+
+	div.divider, div.divider_3 {
+		padding-left: 30px;
+		padding-top: 18px;
+		border: none;
+	}
+
+	header {
+		position: static;
+		width: 100%;
+		font-size: 30px;
+		margin-left: 0px;
+		padding: 20px 0px 10px 0px;
+	}
+
+	section {
+		margin-top: 20px;
+		width: 380px;
+		height: 1800px;
+		margin-left: 0px;
 	}
 
 }
